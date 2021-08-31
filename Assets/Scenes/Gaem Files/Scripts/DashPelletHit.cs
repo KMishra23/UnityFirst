@@ -30,7 +30,7 @@ public class DashPelletHit : MonoBehaviour
         }
         if (!isEnabled && Time.time - coolDown > 10)
         {
-            child = Instantiate(baseMesh, new Vector3(transform.position.x + 0.4f, transform.position.y, 0), Quaternion.Euler(90, 0, 0), transform);
+            child = Instantiate(baseMesh, new Vector3(transform.position.x + 0.4f, transform.position.y, 0), Quaternion.Euler(0, 0, 0), transform);
             isEnabled = true;
         }
     }
