@@ -1,5 +1,5 @@
-Project: Unity Game(2.5D platformer)
-Kaushik Mishra
+Project: Unity Game(2.5D platformer)   
+By: Kaushik Mishra
 
 Instructions on how to run for windows:
 Go to the repository (https://github.com/KMishra23/UnityFirst) and download the SecondVersion.zip file.
