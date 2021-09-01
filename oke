@@ -1,0 +1,226 @@
+[33mcommit 9e1f437289c436903a90f4462d3372ce565c844d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: KMishra23 <kaushik.ultimate96@gmail.com>
+Date:   Tue Aug 31 10:48:01 2021 +0530
+
+    First
+
+.gitignore
+.vsconfig
+Assets/FBX.meta
+Assets/FBX/Staircase.blend
+Assets/FBX/Staircase.blend.meta
+Assets/FBX/rope.fbx
+Assets/FBX/rope.fbx.meta
+Assets/Kevin Iglesias.meta
+Assets/Kevin Iglesias/Basic Motions.meta
+Assets/Kevin Iglesias/Basic Motions/AnimationControllers.meta
+Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Idle.controller
+Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Idle.controller.meta
+Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Jump.controller
+Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Jump.controller.meta
+Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Run.controller
+Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Run.controller.meta
+Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@RunBackwards.controller
+Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@RunBackwards.controller.meta
+Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Sprint.controller
+Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Sprint.controller.meta
+Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Walk.controller
+Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Walk.controller.meta
+Assets/Kevin Iglesias/Basic Motions/Animations.meta
+Assets/Kevin Iglesias/Basic Motions/Animations/Idles.meta
+Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx
+Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx.meta
+Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle02.fbx
+Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle02.fbx.meta
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement.meta
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Jump01.fbx
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Jump01.fbx.meta
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01 [RM].fbx
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01 [RM].fbx.meta
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01.fbx
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01.fbx.meta
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01 [RM].fbx
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01 [RM].fbx.meta
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01.fbx
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01.fbx.meta
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01 [RM].fbx
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01 [RM].fbx.meta
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx
+Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx.meta
+Assets/Kevin Iglesias/Basic Motions/Basic Motions - Scene.unity
+Assets/Kevin Iglesias/Basic Motions/Basic Motions - Scene.unity.meta
+Assets/Kevin Iglesias/Basic Motions/Materials.meta
+Assets/Kevin Iglesias/Basic Motions/Materials/BasicMotionsFloor.mat
+Assets/Kevin Iglesias/Basic Motions/Materials/BasicMotionsFloor.mat.meta
+Assets/Kevin Iglesias/Basic Motions/Materials/BasicMotionsMaterial.mat
+Assets/Kevin Iglesias/Basic Motions/Materials/BasicMotionsMaterial.mat.meta
+Assets/Kevin Iglesias/Basic Motions/Models.meta
+Assets/Kevin Iglesias/Basic Motions/Models/BasicMotionsDummyModel.fbx
+Assets/Kevin Iglesias/Basic Motions/Models/BasicMotionsDummyModel.fbx.meta
+Assets/Kevin Iglesias/Basic Motions/Prefabs.meta
+Assets/Kevin Iglesias/Basic Motions/Prefabs/BasicMotionsDummy.prefab
+Assets/Kevin Iglesias/Basic Motions/Prefabs/BasicMotionsDummy.prefab.meta
+Assets/Kevin Iglesias/Basic Motions/Textures.meta
+Assets/Kevin Iglesias/Basic Motions/Textures/BasicMotionsTexture.png
+Assets/Kevin Iglesias/Basic Motions/Textures/BasicMotionsTexture.png.meta
+Assets/New Terrain.asset
+Assets/New Terrain.asset.meta
+Assets/Physics Materials.meta
+Assets/Physics Materials/Player.physicMaterial
+Assets/Physics Materials/Player.physicMaterial.meta
+Assets/Prefabs.meta
+Assets/Prefabs/Bullet.prefab
+Assets/Prefabs/Bullet.prefab.meta
+Assets/Prefabs/Floating Objs.prefab
+Assets/Prefabs/Floating Objs.prefab.meta
+Assets/Prefabs/Floor.prefab
+Assets/Prefabs/Floor.prefab.meta
+Assets/Prefabs/Gun.prefab
+Assets/Prefabs/Gun.prefab.meta
+Assets/Prefabs/SpringObj.prefab
+Assets/Prefabs/SpringObj.prefab.meta
+Assets/ProBuilder Data.meta
+Assets/ProBuilder Data/Default Color Palette.asset
+Assets/ProBuilder Data/Default Color Palette.asset.meta
+Assets/ProBuilder Data/Default Material Palette.asset
+Assets/ProBuilder Data/Default Material Palette.asset.meta
+Assets/Scenes.meta
+Assets/Scenes/Gaem Files.meta
+Assets/Scenes/Gaem Files/Materials.meta
+Assets/Scenes/Gaem Files/Materials/Apple.mat
+Assets/Scenes/Gaem Files/Materials/Apple.mat.meta
+Assets/Scenes/Gaem Files/Materials/DashPellet.mat
+Assets/Scenes/Gaem Files/Materials/DashPellet.mat.meta
+Assets/Scenes/Gaem Files/Materials/JumpPellet.mat
+Assets/Scenes/Gaem Files/Materials/JumpPellet.mat.meta
+Assets/Scenes/Gaem Files/Materials/ModernSauce.png
+Assets/Scenes/Gaem Files/Materials/ModernSauce.png.meta
+Assets/Scenes/Gaem Files/Materials/PLayer.physicMaterial
+Assets/Scenes/Gaem Files/Materials/PLayer.physicMaterial.meta
+Assets/Scenes/Gaem Files/Materials/Player.mat
+Assets/Scenes/Gaem Files/Materials/Player.mat.meta
+Assets/Scenes/Gaem Files/Materials/background.mat
+Assets/Scenes/Gaem Files/Materials/background.mat.meta
+Assets/Scenes/Gaem Files/Materials/glowy.mat
+Assets/Scenes/Gaem Files/Materials/glowy.mat.meta
+Assets/Scenes/Gaem Files/Materials/imageedit_2_2895064039.png
+Assets/Scenes/Gaem Files/Materials/imageedit_2_2895064039.png.meta
+Assets/Scenes/Gaem Files/Models.meta
+Assets/Scenes/Gaem Files/Models/apple.blend
+Assets/Scenes/Gaem Files/Models/apple.blend.meta
+Assets/Scenes/Gaem Files/Models/final_render_without_color.blend
+Assets/Scenes/Gaem Files/Models/final_render_without_color.blend.meta
+Assets/Scenes/Gaem Files/Models/star.blend
+Assets/Scenes/Gaem Files/Models/star.blend.meta
+Assets/Scenes/Gaem Files/Models/untitled.blend
+Assets/Scenes/Gaem Files/Models/untitled.blend.meta
+Assets/Scenes/Gaem Files/Prefabs.meta
+Assets/Scenes/Gaem Files/Prefabs/DashPellet.prefab
+Assets/Scenes/Gaem Files/Prefabs/DashPellet.prefab.meta
+Assets/Scenes/Gaem Files/Prefabs/Grappleable Object.prefab
+Assets/Scenes/Gaem Files/Prefabs/Grappleable Object.prefab.meta
+Assets/Scenes/Gaem Files/Prefabs/JumpPellet.prefab
+Assets/Scenes/Gaem Files/Prefabs/JumpPellet.prefab.meta
+Assets/Scenes/Gaem Files/Prefabs/Phaseable Wall.prefab
+Assets/Scenes/Gaem Files/Prefabs/Phaseable Wall.prefab.meta
+Assets/Scenes/Gaem Files/Prefabs/Platform.prefab
+Assets/Scenes/Gaem Files/Prefabs/Platform.prefab.meta
+Assets/Scenes/Gaem Files/Scripts.meta
+Assets/Scenes/Gaem Files/Scripts/Crosshair.cs
+Assets/Scenes/Gaem Files/Scripts/Crosshair.cs.meta
+Assets/Scenes/Gaem Files/Scripts/DashPelletHit.cs
+Assets/Scenes/Gaem Files/Scripts/DashPelletHit.cs.meta
+Assets/Scenes/Gaem Files/Scripts/Grapple2D.cs
+Assets/Scenes/Gaem Files/Scripts/Grapple2D.cs.meta
+Assets/Scenes/Gaem Files/Scripts/JumpPad.cs
+Assets/Scenes/Gaem Files/Scripts/JumpPad.cs.meta
+Assets/Scenes/Gaem Files/Scripts/JumpPellet.cs
+Assets/Scenes/Gaem Files/Scripts/JumpPellet.cs.meta
+Assets/Scenes/Gaem Files/Scripts/Phaseable.cs
+Assets/Scenes/Gaem Files/Scripts/Phaseable.cs.meta
+Assets/Scenes/Gaem Files/Scripts/ReelInGrapple.cs
+Assets/Scenes/Gaem Files/Scripts/ReelInGrapple.cs.meta
+Assets/Scenes/Gaem Files/Scripts/RigidbodyPlayer.cs
+Assets/Scenes/Gaem Files/Scripts/RigidbodyPlayer.cs.meta
+Assets/Scenes/Gaem Files/Sound Effects.meta
+Assets/Scenes/Gaem Files/Sound Effects/Dash.wav
+Assets/Scenes/Gaem Files/Sound Effects/Dash.wav.meta
+Assets/Scenes/Gaem Files/Sound Effects/Grapple.mp3
+Assets/Scenes/Gaem Files/Sound Effects/Grapple.mp3.meta
+Assets/Scenes/Gaem Files/Sound Effects/JumpPad.wav
+Assets/Scenes/Gaem Files/Sound Effects/JumpPad.wav.meta
+Assets/Scenes/Gaem Files/Sound Effects/Pellet.wav
+Assets/Scenes/Gaem Files/Sound Effects/Pellet.wav.meta
+Assets/Scenes/Gaem Files/Sound Effects/mixkit-bonus-earned-in-video-game-2058.wav
+Assets/Scenes/Gaem Files/Sound Effects/mixkit-bonus-earned-in-video-game-2058.wav.meta
+Assets/Scenes/Gaem Files/Sound Effects/mixkit-video-game-health-recharge-2837.wav
+Assets/Scenes/Gaem Files/Sound Effects/mixkit-video-game-health-recharge-2837.wav.meta
+Assets/Scenes/Gaem.unity
+Assets/Scenes/Gaem.unity.meta
+Assets/Scenes/Joint testing.unity
+Assets/Scenes/Joint testing.unity.meta
+Assets/Scenes/SampleScene.unity
+Assets/Scenes/SampleScene.unity.meta
+Assets/Scripts.meta
+Assets/Scripts/Bullet.cs
+Assets/Scripts/Bullet.cs.meta
+Assets/Scripts/GrappleGun.cs
+Assets/Scripts/GrappleGun.cs.meta
+Assets/Scripts/MouseLook.cs
+Assets/Scripts/MouseLook.cs.meta
+Assets/Scripts/Player.cs
+Assets/Scripts/Player.cs.meta
+Assets/Scripts/Shoot.cs
+Assets/Scripts/Shoot.cs.meta
+Assets/Scripts/SpacebarPress.cs
+Assets/Scripts/SpacebarPress.cs.meta
+Assets/Scripts/onMouseClicl.cs
+Assets/Scripts/onMouseClicl.cs.meta
+Assets/Textures.meta
+Assets/Textures/DirtTile.mat
+Assets/Textures/DirtTile.mat.meta
+Assets/Textures/Grass.mat
+Assets/Textures/Grass.mat.meta
+Assets/Textures/GunMetal.mat
+Assets/Textures/GunMetal.mat.meta
+Assets/Textures/New Material.mat
+Assets/Textures/New Material.mat.meta
+Assets/Textures/Player.mat
+Assets/Textures/Player.mat.meta
+Assets/Tree.prefab
+Assets/Tree.prefab.meta
+Assets/Tree_Textures.meta
+Assets/Tree_Textures/diffuse.png
+Assets/Tree_Textures/diffuse.png.meta
+Assets/Tree_Textures/normal_specular.png
+Assets/Tree_Textures/normal_specular.png.meta
+Assets/Tree_Textures/shadow.png
+Assets/Tree_Textures/shadow.png.meta
+Assets/Tree_Textures/translucency_gloss.png
+Assets/Tree_Textures/translucency_gloss.png.meta
+Packages/manifest.json
+Packages/packages-lock.json
+ProjectSettings/AudioManager.asset
+ProjectSettings/BurstAotSettings_StandaloneWindows.json
+ProjectSettings/ClusterInputManager.asset
+ProjectSettings/DynamicsManager.asset
+ProjectSettings/EditorBuildSettings.asset
+ProjectSettings/EditorSettings.asset
+ProjectSettings/GraphicsSettings.asset
+ProjectSettings/InputManager.asset
+ProjectSettings/NavMeshAreas.asset
+ProjectSettings/PackageManagerSettings.asset
+ProjectSettings/Packages/com.unity.probuilder/Settings.json
+ProjectSettings/Physics2DSettings.asset
+ProjectSettings/PresetManager.asset
+ProjectSettings/ProjectSettings.asset
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/QualitySettings.asset
+ProjectSettings/SceneTemplateSettings.json
+ProjectSettings/TagManager.asset
+ProjectSettings/TimeManager.asset
+ProjectSettings/TimelineSettings.asset
+ProjectSettings/UnityConnectSettings.asset
+ProjectSettings/VFXManager.asset
+ProjectSettings/VersionControlSettings.asset
+ProjectSettings/XRSettings.asset
