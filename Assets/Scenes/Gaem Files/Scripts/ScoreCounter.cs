@@ -17,4 +17,9 @@ public class ScoreCounter : MonoBehaviour
     {
         Score.text = "Stars collected " + starCounter;
     }
+
+    public void ResetScore()
+    {
+        starCounter = 0;
+    }
 }

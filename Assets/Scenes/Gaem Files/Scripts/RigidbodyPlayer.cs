@@ -38,10 +38,15 @@ public class RigidbodyPlayer : MonoBehaviour
 
     private bool timeSwitch;
     private bool slowed;
+    private bool dashXDirection;
+    private bool dashYDirection;
+    private Vector3 dashPoint;
 
     public LayerMask ground;
 
     [SerializeField] private AudioSource soundDash;
+
+    public CheckPointer cp;
 
     private void Start()
     {
@@ -53,6 +58,10 @@ public class RigidbodyPlayer : MonoBehaviour
 
     void Update()
     {
+        if(transform.position.y < -8)
+        {
+            cp.ResetToLastCheckpoint();
+        }
         if (!canDash)//dash is enabled after 1s cooldown and only after the player has touched ground after dashing
         {
             if (isGrounded && (Time.time - dashStartTime > 1)) canDash = true; 
@@ -197,7 +206,7 @@ public class RigidbodyPlayer : MonoBehaviour
         //Debug.Log(crossHair.CrosshairPos());
         mousePos = crossHair.CrosshairPos();//obtain mouse pos
         oldVelocity = playerRigid.velocity;//store velocity of player right before dash
-        Vector3 dashPoint = (mousePos - transform.position).normalized;//get the dash direction
+        dashPoint = (mousePos - transform.position).normalized;//get the dash direction
 
         playerRigid.useGravity = false;//disable gravity
         playerRigid.velocity = new Vector3(dashPoint.x * dashSpeed, dashPoint.y * dashSpeed, 0);//assign dash velocity
@@ -208,7 +217,7 @@ public class RigidbodyPlayer : MonoBehaviour
     void EndDash()
     {
         playerRigid.useGravity = true;//renable gravity
-        playerRigid.velocity = new Vector3(oldVelocity.x, 0, 0);//reassign velocity before dash
+        playerRigid.velocity = dashPoint * speed/2; //restore speed after dash
         dashing = !dashing;//disable dash state
     }
     

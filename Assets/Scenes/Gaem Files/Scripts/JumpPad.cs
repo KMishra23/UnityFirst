@@ -19,7 +19,7 @@ public class JumpPad : MonoBehaviour
 
     void Update()
     {
-        if(Physics.OverlapBox(transform.position, new Vector3(1,2.5f,1), Quaternion.identity, playerMask).Length > 0 && Time.time - coolDown > 0.3f)
+        if(Physics.OverlapBox(transform.position, new Vector3(1,2.7f,1), Quaternion.identity, playerMask).Length > 0 && Time.time - coolDown > 0.3f)
         {
             if (rbp.GroundedQuery())
             {
